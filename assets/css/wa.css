@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-size: cover;
+}
+
+.spaces {
+	height: 50px;
+}
+
+.card {
+	background-color: #ffff;
+	max-width: 420px;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card .header {
+	text-align: center;
+}
+
+.card h3 {
+	font-size: 30px;
+	color: #222;
+}
+
+.header img {
+	width: 150px;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+
+.card .footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	color: #222;
+}
+
+.btn {
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid #e74c3c;
+	border-radius: 0.6em;
+	color: #e74c3c;
+	cursor: pointer;
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 20px;
+	padding: 1.2em 2.8em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #446a46;
+	outline: 0;
+}
+
+.btn-wa {
+	border-color: #446a46;
+	color: #fff;
+	box-shadow: 0 0 40px 40px #446a46 inset, 0 0 0 0 #446a46;
+	transition: all 150ms ease-in-out;
+}
+
+.btn-wa:hover {
+	box-shadow: 0 0 2px 0 #446a46 inset, 0 0 1px 1px #446a46;
+}
